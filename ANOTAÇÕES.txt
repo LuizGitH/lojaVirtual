@@ -1,0 +1,31 @@
+--> GITHUB (https://www.youtube.com/watch?v=VmkEZ9qEPDU)
+
+#COMANDOS:
+    git status = é usado para exibir informações sobre o repositório. Ele fornece uma visão geral das alterações
+    realizadas e ajuda você a entender o que está acontecendo antes de tomar ações como adicionar, fazer commit ou
+    enviar alterações.
+
+    git init = é usado para criar um novo repositório Git. Ele inicializa o diretório atual como um repositório Git,
+    configurando todos os arquivos e estruturas necessários para começar a usar o Git no projeto.
+
+    git add . = é usado para adicionar todos os arquivos e alterações no diretório atual à área de preparação. Ele
+    prepara esses arquivos para serem incluídos no próximo commit.
+
+    git commit -a -m "Mensagem do commit"  = é utilizado para realizar um commit com algumas características
+    específicas. Verificará os arquivos rastreados no repositório local e inclui automaticamente as alterações
+    (edições ou exclusões) nesses arquivos no commit.
+
+    git config --global user.email "meu email" = configura o endereço de e-mail que será associado aos commits
+    feitos pelo usuário no Git. Este e-mail será incluído no metadado de cada commit criado.
+
+1º - Vou na pasta e clica com o botão direito do mause, seleciona a opção "Open Git Bash here"
+2º - Na caixa de mensagem escreva "git status" para ver se é um repositório
+2.1 - Se não for um repositório tem que escrever "git init" para transformar em um repositório
+3º - Usar o "git status" novamente para ver se os arquivos estão sendo rastreados
+3.1 - Se não estiver sendo rastreado vai aparecer "Untracked files:" e os nomes dos aquivos
+3.2 - Para arrumar isso vamos escrever "git add ."
+3.3 - Para confirmar escrevemos novamente "git status"
+4º - Usar o "git status" para ver se tem um commit
+4.1 - Se não tiver escrever "git commit -a -m "alguma mensagem""
+4.2 - Se for a primeira fez vai aparecer um mensagem de erro
+4.3 - para corrigir tem que escrever "git config --global user.email "nome do email""
