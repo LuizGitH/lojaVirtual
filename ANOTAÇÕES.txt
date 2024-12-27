@@ -18,6 +18,9 @@
     git config --global user.email "meu email" = configura o endereço de e-mail que será associado aos commits
     feitos pelo usuário no Git. Este e-mail será incluído no metadado de cada commit criado.
 
+    git config --global user.name "meu nome" = configura o nome do usuário que será associado aos commits feitos no
+    Git. Este nome aparecerá como parte do metadado de autoria de cada commit.
+
 1º - Vou na pasta e clica com o botão direito do mause, seleciona a opção "Open Git Bash here"
 2º - Na caixa de mensagem escreva "git status" para ver se é um repositório
 2.1 - Se não for um repositório tem que escrever "git init" para transformar em um repositório
@@ -29,3 +32,4 @@
 4.1 - Se não tiver escrever "git commit -a -m "alguma mensagem""
 4.2 - Se for a primeira fez vai aparecer um mensagem de erro
 4.3 - para corrigir tem que escrever "git config --global user.email "nome do email""
+4.4 - depois escrever git config --global user.name "nome da pessoa"
