@@ -1,7 +1,5 @@
 --> GITHUB (https://www.youtube.com/watch?v=VmkEZ9qEPDU)
 
-PAREI NO MINUTO 13
-
 #COMANDOS:
     git status = é usado para exibir informações sobre o repositório. Ele fornece uma visão geral das alterações
     realizadas e ajuda você a entender o que está acontecendo antes de tomar ações como adicionar, fazer commit ou
@@ -23,6 +21,9 @@ PAREI NO MINUTO 13
     git config --global user.name "meu nome" = configura o nome do usuário que será associado aos commits feitos no
     Git. Este nome aparecerá como parte do metadado de autoria de cada commit.
 
+    git remote add origin meuLink = é usado no Git para associar o repositório local a um repositório remoto.
+
+#NA MAQUINA LOCAL:
 1º - Vou na pasta e clica com o botão direito do mause, seleciona a opção "Open Git Bash here"
 2º - Na caixa de mensagem escreva "git status" para ver se é um repositório
 2.1 - Se não for um repositório tem que escrever "git init" para transformar em um repositório
@@ -36,3 +37,6 @@ PAREI NO MINUTO 13
 4.3 - para corrigir tem que escrever "git config --global user.email "nome do email""
 4.4 - depois escrever git config --global user.name "nome da pessoa"
 4.5 - para saber se deu certo escrever "git commit -a -m "alguma mensagem""
+5º - Para vincular o repositório local ao virtual tem que escrever "git remote add origin meuLink"
+5.1 - O meu link é obtido no site do GitHub, dentro da aba do repositorio que queremos
+5.2 - (Ex. https://github.com/LuizGitH/lojaVirtual.git")
