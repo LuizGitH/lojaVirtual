@@ -23,6 +23,9 @@
 
     git remote add origin meuLink = é usado no Git para associar o repositório local a um repositório remoto.
 
+    git push origin master = é usado para enviar as alterações do repositório local para o repositório remoto,
+    especificamente para a branch chamada master
+
 #NA MAQUINA LOCAL:
 1º - Vou na pasta e clica com o botão direito do mause, seleciona a opção "Open Git Bash here"
 2º - Na caixa de mensagem escreva "git status" para ver se é um repositório
@@ -40,3 +43,6 @@
 5º - Para vincular o repositório local ao virtual tem que escrever "git remote add origin meuLink"
 5.1 - O meu link é obtido no site do GitHub, dentro da aba do repositorio que queremos
 5.2 - (Ex. https://github.com/LuizGitH/lojaVirtual.git")
+6º - Escrevemos o comando "git push origin master"
+6.1 - Vai aparecer a tela ne autenticação, clicar no botão azul (O primeiro de cima)
+7º - Para salvar as alterações tem que fazer a função "git commit -a -m "alguma mensagem"" e "git push origin master"
