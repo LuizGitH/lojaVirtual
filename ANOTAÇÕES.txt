@@ -46,3 +46,4 @@
 6º - Escrevemos o comando "git push origin master"
 6.1 - Vai aparecer a tela ne autenticação, clicar no botão azul (O primeiro de cima)
 7º - Para salvar as alterações tem que fazer a função "git commit -a -m "alguma mensagem"" e "git push origin master"
+7.1 - Se tiver um novo arquivo tem que fazer a função "git add ." primeiro
