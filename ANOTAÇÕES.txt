@@ -26,6 +26,11 @@
     git push origin master = é usado para enviar as alterações do repositório local para o repositório remoto,
     especificamente para a branch chamada master
 
+    git clone meuLINK = é usado para copiar um repositório remoto e criar uma cópia completa dele no seu computador.
+    Ele clona tanto os arquivos do repositório quanto o histórico completo de commits.
+
+    git pull origin master = é usado para atualizar o que foi adicionado no repositorio online.
+
 #NA MAQUINA LOCAL:
 1º - Vou na pasta e clica com o botão direito do mause, seleciona a opção "Open Git Bash here"
 2º - Na caixa de mensagem escreva "git status" para ver se é um repositório
