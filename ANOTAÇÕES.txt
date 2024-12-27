@@ -1,5 +1,7 @@
 --> GITHUB (https://www.youtube.com/watch?v=VmkEZ9qEPDU)
 
+PAREI NO MINUTO 13
+
 #COMANDOS:
     git status = é usado para exibir informações sobre o repositório. Ele fornece uma visão geral das alterações
     realizadas e ajuda você a entender o que está acontecendo antes de tomar ações como adicionar, fazer commit ou
@@ -33,3 +35,4 @@
 4.2 - Se for a primeira fez vai aparecer um mensagem de erro
 4.3 - para corrigir tem que escrever "git config --global user.email "nome do email""
 4.4 - depois escrever git config --global user.name "nome da pessoa"
+4.5 - para saber se deu certo escrever "git commit -a -m "alguma mensagem""
