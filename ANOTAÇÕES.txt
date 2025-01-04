@@ -13,6 +13,16 @@
     php artisan serve = é usado no Laravel para iniciar um servidor de desenvolvimento embutido que permite 
     executar a aplicação em um ambiente local.
 
+#HTML:
+    <h1>texto<h1> = é usada para definir o cabeçalho de nível 1 de uma página ou seção.
+    
+    <nav>
+        <a href="/">NOME DO ARQUIVO PHP</a>
+    </nav> = Este código criará um menu com um link chamado "NOME DO ARQUIVO PHP", que leva o usuário para 
+    a página inicial do site.
+
+    <title>NOME</title> = É usada para definir o título da página que aparece na aba do navegador 
+    ou na barra de título da janela.
 
 
 
