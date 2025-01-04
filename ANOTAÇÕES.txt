@@ -1,3 +1,23 @@
+--> LARAVEL (https://www.youtube.com/watch?v=kaMIgLKt1Qg)
+#APLICATIVOS:
+    XAMPP
+    COMPOSER
+    NODE.JS
+
+#COMANDOS:
+    composer create-project laravel/laravel:^10.0 NOMEdaPASTA = é usado para criar um novo projeto Laravel 
+    utilizando o Composer, que é o gerenciador de dependências do PHP
+
+    cd example-app = é usado para entrar no diretório onde o projeto Laravel foi criado
+
+    php artisan serve = é usado no Laravel para iniciar um servidor de desenvolvimento embutido que permite 
+    executar a aplicação em um ambiente local.
+
+
+
+
+
+
 --> GITHUB (https://www.youtube.com/watch?v=VmkEZ9qEPDU)
 
 #COMANDOS:
